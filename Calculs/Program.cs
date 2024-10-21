@@ -24,7 +24,7 @@ namespace Calculs
                 Console.WriteLine("Addition ....................... 1");
                 Console.WriteLine("Multiplication ................. 2");
                 Console.WriteLine("Quitter ........................ 0");
-                Console.Write("Choix :                          ");
+                Console.Write("Choix :                          ")
                 choix = int.Parse(Console.ReadLine());
                 // traitement des choix
                 if (choix != 0)
